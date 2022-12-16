@@ -11,25 +11,25 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font          = "FiraCode Nerd Font 10"
+theme.font          = "FiraCode Nerd Font 12"
 
 theme.taglist_font = "FiraCode Nerd Font 16"
 
 theme.bg_normal     = "#00000000"
-theme.bg_focus      = "#00000000"
-theme.bg_urgent     = "#00000000"
-theme.bg_minimize   = "#00000000"
-theme.bg_systray    = theme.bg_normal
+-- theme.bg_focus      = "#00000000"
+-- theme.bg_urgent     = "#00000000"
+-- theme.bg_minimize   = "#00000000"
+-- theme.bg_systray    = theme.bg_normal
 
--- theme.fg_normal     = "#ffffff66"
--- theme.fg_focus      = "#ffffff"
+theme.fg_normal     = "#ffffff80"
+theme.fg_focus      = "#ffffffff"
 -- theme.fg_urgent     = "#ff0000aa"
 -- theme.fg_minimize   = "#8888ff88"
 
 theme.useless_gap   = dpi(4)
 theme.border_width  = dpi(4)
 
-theme.hotkeys_bg = "#202030"
+theme.hotkeys_bg = "#2B2D3180"
 
 theme.border_normal = "#0A0E14"
 theme.border_focus  = "#94EE94"
