@@ -40,7 +40,7 @@ theme.menu_height = dpi(16)
 -- you wish and access them by using
 -- beautiful.variable in your rc.lua
 
-theme.wallpaper = os.getenv("PWD") .. "voidlinux_wallpaper.jpg"
+theme.wallpaper = "~/.config/awesome/voidlinux_wallpaper.jpg"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"
